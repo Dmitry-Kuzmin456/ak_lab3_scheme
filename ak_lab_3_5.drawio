@@ -181,6 +181,9 @@
         <mxCell id="l3" parent="1" style="text;fontSize=9;" value="displacement" vertex="1">
           <mxGeometry height="20" width="70" x="160" y="470" as="geometry" />
         </mxCell>
+        <mxCell id="hF-9aOcMo_3HF2M5vsDr-1" parent="1" style="text;fontSize=10;" value="-- size_sel" vertex="1">
+          <mxGeometry height="20" width="60" x="520" y="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
