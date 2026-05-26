@@ -96,23 +96,15 @@
             <mxPoint x="305" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.75;entryY=1;strokeWidth=1;entryDx=0;entryDy=0;jumpStyle=arc;" target="QE6Sfv79pI1ksBkOL9Pm-1">
+        <mxCell id="c6" edge="1" parent="1" source="ea_adder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.75;entryY=1;strokeWidth=1;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="QE6Sfv79pI1ksBkOL9Pm-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="245" y="180" />
               <mxPoint x="40" y="180" />
               <mxPoint x="40" y="550" />
               <mxPoint x="245" y="550" />
             </Array>
             <mxPoint x="245" y="180" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;" target="nncazvw0HSiKQ2vKaca9-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="245" y="159" />
-            </Array>
-            <mxPoint x="245" y="159" as="sourcePoint" />
-            <mxPoint x="300" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c8" edge="1" parent="1" source="d_regs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="alu_mux1">
