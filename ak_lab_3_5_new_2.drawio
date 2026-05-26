@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0">
   <diagram name="Страница — 1" id="VGKbWjWdtL2SpbDxmH2T">
-    <mxGraphModel dx="1134" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1015" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d_regs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Registers&lt;br&gt;D0-D7 (32-bit)" vertex="1">
-          <mxGeometry height="80" width="120" x="460" y="320" as="geometry" />
+          <mxGeometry height="80" width="120" x="440" y="320" as="geometry" />
         </mxCell>
         <mxCell id="ea_adder" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EA Adder&lt;br&gt;(Address Gen)" vertex="1">
           <mxGeometry height="50" width="120" x="45" y="110" as="geometry" />
@@ -127,12 +127,11 @@
         <mxCell id="c10" edge="1" parent="1" source="d_regs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.833;exitY=1.002;entryX=0.823;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="alu_mux2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;">
+        <mxCell id="c11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="alu_mux2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="780" y="405" />
-              <mxPoint x="600" y="405" />
-              <mxPoint x="600" y="440" />
+              <mxPoint x="595" y="405" />
             </Array>
             <mxPoint x="780" y="420" as="sourcePoint" />
             <mxPoint x="600" y="440" as="targetPoint" />
@@ -272,12 +271,12 @@
             <mxPoint x="190" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ycU3XpmmI_x2dFCAvOnR-16" edge="1" parent="1" source="ycU3XpmmI_x2dFCAvOnR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.419;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" target="alu_mux2">
+        <mxCell id="ycU3XpmmI_x2dFCAvOnR-16" edge="1" parent="1" source="ycU3XpmmI_x2dFCAvOnR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;" target="alu_mux2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="620" y="240" />
               <mxPoint x="620" y="390" />
-              <mxPoint x="585" y="390" />
+              <mxPoint x="580" y="390" />
             </Array>
             <mxPoint x="540" y="270" as="sourcePoint" />
             <mxPoint x="640" y="290" as="targetPoint" />
